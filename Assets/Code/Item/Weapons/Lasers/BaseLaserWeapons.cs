@@ -22,7 +22,6 @@ public abstract class BaseLaserWeapons : MonoBehaviour, IShootingable
     public void Initialization(SpecificationLasersWeapon tTXWeapon)
     {
         this.tTXWeapon = tTXWeapon;
-        Debug.Log(tTXWeapon.DamagePreSecond);
     }
 
     protected void HitInfo()
